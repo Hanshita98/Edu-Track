@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="24dp" android:gravity="center">
+    <TextView android:text="Welcome to EduTrack" android:textSize="20sp" android:layout_marginBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnAttendance" android:text="Attendance" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    <Button android:id="@+id/btnEvents" android:text="Events" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    <Button android:id="@+id/btnPhotos" android:text="Photos" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    <Button android:id="@+id/btnCertificates" android:text="Certificates" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+</LinearLayout>
